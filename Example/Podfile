@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SGSPopover_Example' do
+  pod 'SGSPopover', :path => '../'
+
+  target 'SGSPopover_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
