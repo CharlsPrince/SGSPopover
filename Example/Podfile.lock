@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SGSPopover (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SGSPopover (from `../`)
+
+EXTERNAL SOURCES:
+  SGSPopover:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SGSPopover: aaea2ea71b8733862b48ab774fe3b0e48cae5bb1
+
+PODFILE CHECKSUM: f2dd92c9d8cd230d9ba7c9c745f0ddae14f2258e
+
+COCOAPODS: 1.2.0

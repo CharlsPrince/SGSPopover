@@ -1,0 +1,6 @@
+framework module SGSPopover {
+  umbrella header "SGSPopover-umbrella.h"
+
+  export *
+  module * { export * }
+}

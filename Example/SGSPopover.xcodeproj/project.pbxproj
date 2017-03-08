@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DB6119B057C4CAD51F8EAA44 /* Pods_SGSPopover_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3D20B88A20CF85948E3035 /* Pods_SGSPopover_Tests.framework */; };
+		FE5262761E6EE60B00AEF23A /* SGSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5262751E6EE60B00AEF23A /* SGSPopover.m */; };
+		FE8CD5261E70088B0063F29C /* UIView+SGSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8CD5251E70088B0063F29C /* UIView+SGSPopover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04914C7A91EA02F9125DC666 /* SGSPopover.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SGSPopover.podspec; path = ../SGSPopover.podspec; sourceTree = "<group>"; };
+		04914C7A91EA02F9125DC666 /* SGSPopover.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SGSPopover.podspec; path = ../SGSPopover.podspec; sourceTree = "<group>"; };
 		4D3D20B88A20CF85948E3035 /* Pods_SGSPopover_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSPopover_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2E93220185080F89B8B81F /* Pods-SGSPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGSPopover_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGSPopover_Tests/Pods-SGSPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		508E781D79C5A4708C1F1257 /* Pods_SGSPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSPopover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +62,17 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6187250A3041A2E0F3B04758 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6187250A3041A2E0F3B04758 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		744F9A5EB04A49CA7D90AEFF /* Pods-SGSPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGSPopover_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGSPopover_Example/Pods-SGSPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94235809A95BDCB618A4871E /* Pods-SGSPopover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGSPopover_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGSPopover_Example/Pods-SGSPopover_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EB739C04CB149A4AB7CA3265 /* Pods-SGSPopover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGSPopover_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGSPopover_Tests/Pods-SGSPopover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F22F4D69FD8775CA22A85591 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F22F4D69FD8775CA22A85591 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE5262741E6EE60B00AEF23A /* SGSPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSPopover.h; sourceTree = "<group>"; };
+		FE5262751E6EE60B00AEF23A /* SGSPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSPopover.m; sourceTree = "<group>"; };
+		FE8CD5241E70088A0063F29C /* UIView+SGSPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGSPopover.h"; sourceTree = "<group>"; };
+		FE8CD5251E70088B0063F29C /* UIView+SGSPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGSPopover.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 		6003F593195388D20070C39A /* Example for SGSPopover */ = {
 			isa = PBXGroup;
 			children = (
+				FE5262731E6EE5E600AEF23A /* SGSPopover */,
 				6003F59C195388D20070C39A /* SGSAppDelegate.h */,
 				6003F59D195388D20070C39A /* SGSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -196,6 +203,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FE5262731E6EE5E600AEF23A /* SGSPopover */ = {
+			isa = PBXGroup;
+			children = (
+				FE5262741E6EE60B00AEF23A /* SGSPopover.h */,
+				FE5262751E6EE60B00AEF23A /* SGSPopover.m */,
+				FE8CD5241E70088A0063F29C /* UIView+SGSPopover.h */,
+				FE8CD5251E70088B0063F29C /* UIView+SGSPopover.m */,
+			);
+			path = SGSPopover;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +269,7 @@
 				ORGANIZATIONNAME = CharlsPrince;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -395,8 +414,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SGSAppDelegate.m in Sources */,
+				FE8CD5261E70088B0063F29C /* UIView+SGSPopover.m in Sources */,
 				6003F5A7195388D20070C39A /* SGSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				FE5262761E6EE60B00AEF23A /* SGSPopover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +589,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGSPopover_Example.app/SGSPopover_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +610,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGSPopover_Example.app/SGSPopover_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
