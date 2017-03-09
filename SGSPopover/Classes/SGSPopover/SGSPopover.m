@@ -130,7 +130,10 @@ static CGFloat const triangeR = 5.0f;
     
     [self drawTriangleWithPath:bezierPath triangleRaduis:[self triangleRaduis] withRect:rect];
     
-//    [bezierPath closePath];
+    UIColor *fillColor = _fillColor ? _fillColor : [UIColor clearColor];
+    [fillColor setFill];
+    [bezierPath fill];
+    [bezierPath closePath];
     [bezierPath stroke];
 }
 

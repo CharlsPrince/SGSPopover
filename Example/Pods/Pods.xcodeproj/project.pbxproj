@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05192A7C65C703EB8B07042BC44ED294 /* SGSPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4AF94D932BE625136E7D496CBA0909 /* SGSPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		0B8DBAB184BB7E8E1D9C5E3386A8DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		2AE402B38A5D67335E41BCA875BD3AF8 /* SGSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DA86BBF389F5E01788F8B2A9B96E1 /* SGSPopover.m */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		50A47A81A4A0023E7FA7F3690F19AE75 /* SGSPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C095DB6A95047083EDF935F94F1EE /* SGSPopover-dummy.m */; };
 		63E23CA056E9805F9CD881F8E26F86DF /* Pods-SGSPopover_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 686B9D4AD0DB06FFE5F5FB042497E90E /* Pods-SGSPopover_Tests-dummy.m */; };
 		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		6F54A457E96E79013304FBC54C352B3A /* SGSPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542A0AB34BFCAE4E25D65A05330A0BA8 /* SGSPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		7D3BC67CBCC05B45237D4FC0D825357F /* UIView+SGSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F80C3C47B35C0C11F2279857CF48E6 /* UIView+SGSPopover.m */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A06AFB95F38A9570F8529B0CDFCE74EF /* Pods-SGSPopover_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8F38A0CA4B989FE9E49B3510F451C4 /* Pods-SGSPopover_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2C8AB2DF265163437B2A8EF6ADE5510 /* Pods-SGSPopover_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D084FBD0B86911C3357B0458C08335 /* Pods-SGSPopover_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,18 +32,15 @@
 		B11F201C9B26AE0531620D5DF5F885C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD57C77860DF125A83CABAAED7093295 /* SGSPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542A0AB34BFCAE4E25D65A05330A0BA8 /* SGSPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C13453938C8581223D8591F8F71F683E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		C3F9869DE8F0DFFCA09DF84488382DAC /* Pods-SGSPopover_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F655B8BECD3C075BF6AA13E26A7F84D3 /* Pods-SGSPopover_Example-dummy.m */; };
+		C4A8EE30ED0A3E68713683CD514B60B3 /* UIView+SGSPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF509D78DCE078CB0254DC0BB7E362E /* UIView+SGSPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D32332CA40D4F631E8DBA950B25A18FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32099E0A716483F90035D502A494AC /* XCTest.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		FE208B231E70643300ABB893 /* SGSPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = FE208B1F1E70643300ABB893 /* SGSPopover.h */; };
-		FE208B241E70643300ABB893 /* SGSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = FE208B201E70643300ABB893 /* SGSPopover.m */; };
-		FE208B251E70643300ABB893 /* UIView+SGSPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = FE208B211E70643300ABB893 /* UIView+SGSPopover.h */; };
-		FE208B261E70643300ABB893 /* UIView+SGSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = FE208B221E70643300ABB893 /* UIView+SGSPopover.m */; };
+		E34C528FD8798CFF43153EF7B31AD9B5 /* SGSPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C095DB6A95047083EDF935F94F1EE /* SGSPopover-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,11 +82,13 @@
 		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4B2E39117C569328A9BEFBFC84CC849B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5DA86BBF389F5E01788F8B2A9B96E1 /* SGSPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSPopover.m; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		542A0AB34BFCAE4E25D65A05330A0BA8 /* SGSPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSPopover-umbrella.h"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5B28187F1075BD30F148577265FD3F72 /* Pods-SGSPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5FDE40A8769E30ABD9F360C5AE520E8B /* SGSPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSPopover-prefix.pch"; sourceTree = "<group>"; };
+		5FF509D78DCE078CB0254DC0BB7E362E /* UIView+SGSPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SGSPopover.h"; sourceTree = "<group>"; };
 		686B9D4AD0DB06FFE5F5FB042497E90E /* Pods-SGSPopover_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSPopover_Tests-dummy.m"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		CD6A2A8982B4FC1F47E2DD6AE94C7177 /* Pods-SGSPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE473BD3BA5791700CF34FADBC07D20C /* Pods_SGSPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSPopover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F80C3C47B35C0C11F2279857CF48E6 /* UIView+SGSPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGSPopover.m"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DA65234472F807BCBB7F9C2E1E886289 /* Pods-SGSPopover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSPopover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,12 +118,9 @@
 		DC8E2AE2C548B8F98F892AC824C694E3 /* Pods-SGSPopover_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SGSPopover_Example.modulemap"; sourceTree = "<group>"; };
 		DDA3555E83DE7775A809E232155CD1A0 /* SGSPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGSPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		EB4AF94D932BE625136E7D496CBA0909 /* SGSPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSPopover.h; sourceTree = "<group>"; };
 		F655B8BECD3C075BF6AA13E26A7F84D3 /* Pods-SGSPopover_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSPopover_Example-dummy.m"; sourceTree = "<group>"; };
 		FB7389A623F6962316498EAD91469FF7 /* Pods-SGSPopover_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSPopover_Tests-resources.sh"; sourceTree = "<group>"; };
-		FE208B1F1E70643300ABB893 /* SGSPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSPopover.h; sourceTree = "<group>"; };
-		FE208B201E70643300ABB893 /* SGSPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSPopover.m; sourceTree = "<group>"; };
-		FE208B211E70643300ABB893 /* UIView+SGSPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGSPopover.h"; sourceTree = "<group>"; };
-		FE208B221E70643300ABB893 /* UIView+SGSPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGSPopover.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +184,14 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		22331315AEB69F5656E3C09A9E41EA15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AFAB524FE50CAEB46CF131FDD363513 /* SGSPopover */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +200,14 @@
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		6A232BBDC45A871F85F88D0E1D29A6F4 /* SGSPopover */ = {
+			isa = PBXGroup;
+			children = (
+				22331315AEB69F5656E3C09A9E41EA15 /* Classes */,
+			);
+			path = SGSPopover;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -241,6 +257,17 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		9AFAB524FE50CAEB46CF131FDD363513 /* SGSPopover */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AF94D932BE625136E7D496CBA0909 /* SGSPopover.h */,
+				4C5DA86BBF389F5E01788F8B2A9B96E1 /* SGSPopover.m */,
+				5FF509D78DCE078CB0254DC0BB7E362E /* UIView+SGSPopover.h */,
+				D6F80C3C47B35C0C11F2279857CF48E6 /* UIView+SGSPopover.m */,
+			);
+			path = SGSPopover;
+			sourceTree = "<group>";
+		};
 		9EBB9A638F539EE0DDD46A1A7025FA83 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,7 +290,7 @@
 		E937EF1A4B35E45A5F6DF5229CD2641A /* SGSPopover */ = {
 			isa = PBXGroup;
 			children = (
-				FE208B1A1E7063F900ABB893 /* Classes */,
+				6A232BBDC45A871F85F88D0E1D29A6F4 /* SGSPopover */,
 				F7C90FE86F618C3962F193E2D2137196 /* Support Files */,
 			);
 			name = SGSPopover;
@@ -324,26 +351,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FE208B1A1E7063F900ABB893 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FE208B1E1E70643300ABB893 /* SGSPopover */,
-			);
-			name = Classes;
-			path = SGSPopover/Classes;
-			sourceTree = "<group>";
-		};
-		FE208B1E1E70643300ABB893 /* SGSPopover */ = {
-			isa = PBXGroup;
-			children = (
-				FE208B1F1E70643300ABB893 /* SGSPopover.h */,
-				FE208B201E70643300ABB893 /* SGSPopover.m */,
-				FE208B211E70643300ABB893 /* UIView+SGSPopover.h */,
-				FE208B221E70643300ABB893 /* UIView+SGSPopover.m */,
-			);
-			path = SGSPopover;
-			sourceTree = "<group>";
-		};
 		FED78E0A8B4D71F5C924D9934CDD1420 /* Pods-SGSPopover_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,13 +380,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		879A497C2D97CBEF924C6876F7FBCA74 /* Headers */ = {
+		9967FDC721C65C12F242665E0BFC4511 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE208B231E70643300ABB893 /* SGSPopover.h in Headers */,
-				FE208B251E70643300ABB893 /* UIView+SGSPopover.h in Headers */,
-				BD57C77860DF125A83CABAAED7093295 /* SGSPopover-umbrella.h in Headers */,
+				6F54A457E96E79013304FBC54C352B3A /* SGSPopover-umbrella.h in Headers */,
+				05192A7C65C703EB8B07042BC44ED294 /* SGSPopover.h in Headers */,
+				C4A8EE30ED0A3E68713683CD514B60B3 /* UIView+SGSPopover.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +420,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA91A979D4488BC7CB2A5FA45350EBF2 /* Build configuration list for PBXNativeTarget "SGSPopover" */;
 			buildPhases = (
-				FB5AEB6AA53409FF35D7E2191337FC0E /* Sources */,
+				530E02BDD502C95685ABA4F2C3DDC1A1 /* Sources */,
 				557C19A7408A8DD68788D59DFB6F04FE /* Frameworks */,
-				879A497C2D97CBEF924C6876F7FBCA74 /* Headers */,
+				9967FDC721C65C12F242665E0BFC4511 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -487,14 +494,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					34CD2E3428AB802BACA62286FF5074B1 = {
-						LastSwiftMigration = 0820;
-					};
-					A0FA643B5A8974ED2C7632FBD5AAD7CC = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -525,6 +524,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		530E02BDD502C95685ABA4F2C3DDC1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C528FD8798CFF43153EF7B31AD9B5 /* SGSPopover-dummy.m in Sources */,
+				2AE402B38A5D67335E41BCA875BD3AF8 /* SGSPopover.m in Sources */,
+				7D3BC67CBCC05B45237D4FC0D825357F /* UIView+SGSPopover.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,16 +555,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3F9869DE8F0DFFCA09DF84488382DAC /* Pods-SGSPopover_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB5AEB6AA53409FF35D7E2191337FC0E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50A47A81A4A0023E7FA7F3690F19AE75 /* SGSPopover-dummy.m in Sources */,
-				FE208B261E70643300ABB893 /* UIView+SGSPopover.m in Sources */,
-				FE208B241E70643300ABB893 /* SGSPopover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,39 +642,6 @@
 			};
 			name = Debug;
 		};
-		50E6827ED684750FB8EC425C9547DB59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7705B2BF1C4AFD9C4D49A853486F40AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD6A2A8982B4FC1F47E2DD6AE94C7177 /* Pods-SGSPopover_Tests.release.xcconfig */;
@@ -705,7 +671,6 @@
 				PRODUCT_NAME = Pods_SGSPopover_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -796,6 +761,71 @@
 			};
 			name = Debug;
 		};
+		A48DF838CD32B60CBA3139D4DA2D0D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57EE59C0A00DB99D4A5A4068B8C0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B77D028035DF529AC8A820087F4E20C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA65234472F807BCBB7F9C2E1E886289 /* Pods-SGSPopover_Tests.debug.xcconfig */;
@@ -826,7 +856,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -858,38 +887,6 @@
 				PRODUCT_NAME = SGSPopover;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E6680F91FD78ACF3037F0841BA89185B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -973,8 +970,8 @@
 		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50E6827ED684750FB8EC425C9547DB59 /* Debug */,
-				E6680F91FD78ACF3037F0841BA89185B /* Release */,
+				A48DF838CD32B60CBA3139D4DA2D0D1E /* Debug */,
+				B57EE59C0A00DB99D4A5A4068B8C0C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

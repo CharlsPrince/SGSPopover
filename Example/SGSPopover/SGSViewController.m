@@ -7,7 +7,7 @@
 //
 
 #import "SGSViewController.h"
-#import "SGSPopover.h"
+#import <SGSPopover/SGSPopover.h>
 
 @interface SGSViewController ()
 @property (nonatomic, strong) SGSPopover *popover;
@@ -24,7 +24,7 @@
     label.text = @"asdfasdfas";
     [label sizeToFit];
     self.popover = [[SGSPopover alloc] initWithContentView:label];
-    self.popover.lineWidth = 1.0f;
+    self.popover.lineWidth = 5.0f;
     self.popover.lineColor = [UIColor redColor];
     self.popover.fillColor = [UIColor greenColor];
     self.popover.triangleRaduis = 5.0f;
@@ -48,8 +48,8 @@
     
     UISlider *slider3 = [[UISlider alloc] initWithFrame:CGRectMake(100, 300, 100, 30)];
     [slider3 addTarget:self action:@selector(popStyleChange:) forControlEvents:UIControlEventValueChanged];
-    slider3.minimumValue = 1.0;
-    slider3.maximumValue = 4.0;
+    slider3.minimumValue = 0.0;
+    slider3.maximumValue = 3.4;
     [self.view addSubview:slider3];
     
 }

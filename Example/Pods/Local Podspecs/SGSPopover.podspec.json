@@ -1,8 +1,8 @@
 {
   "name": "SGSPopover",
   "version": "0.1.0",
-  "summary": "A short description of SGSPopover.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Pop 视图组件",
+  "description": "一个Popover控件，可以添加任何子视图",
   "homepage": "https://github.com/CharlsPrince/SGSPopover",
   "license": {
     "type": "MIT",

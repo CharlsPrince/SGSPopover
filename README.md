@@ -20,6 +20,25 @@ it, simply add the following line to your Podfile:
 pod "SGSPopover"
 ```
 
+## 使用方法
+------
+```
+    UILabel *label = [[UILabel alloc] init];
+    label.text = @"asdfasdfas";
+    [label sizeToFit];
+    self.popover = [[SGSPopover alloc] initWithContentView:label];
+    self.popover.lineWidth = 5.0f;
+    self.popover.lineColor = [UIColor redColor];
+    self.popover.fillColor = [UIColor greenColor];
+    self.popover.triangleRaduis = 5.0f;
+    self.popover.widthEdge = 10.0;
+    self.popover.heightEdge = 10.0f;
+    self.popover.cornerRadius = 5.0f;
+    self.popover.popoverStyle = SGSPopoverStyleLeft;
+    [self.view addSubview:self.popover];
+```
+
+
 ## Author
 
 CharlsPrince, 961629701@qq.com

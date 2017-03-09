@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "SGSPopover.h"
+#import "UIView+SGSPopover.h"
 
 FOUNDATION_EXPORT double SGSPopoverVersionNumber;
 FOUNDATION_EXPORT const unsigned char SGSPopoverVersionString[];

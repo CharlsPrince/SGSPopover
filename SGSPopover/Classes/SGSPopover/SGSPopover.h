@@ -19,13 +19,21 @@ typedef NS_ENUM(NSInteger, SGSPopoverStyle) {
 
 @interface SGSPopover : UIView
 
-@property (nonatomic, assign) CGFloat lineWidth;  
+/// 线宽 
+@property (nonatomic, assign) CGFloat lineWidth;
+/// 线颜色
 @property (nonatomic, strong) UIColor *lineColor;
+/// 填充颜色
 @property (nonatomic, strong) UIColor *fillColor;
+/// 箭头半径
 @property (nonatomic, assign) CGFloat triangleRaduis;
+/// 宽间隔
 @property (nonatomic, assign) CGFloat widthEdge;
+/// 长间隔
 @property (nonatomic, assign) CGFloat heightEdge;
+/// 圆角半径
 @property (nonatomic, assign) CGFloat cornerRadius;
+/// 箭头方向
 @property (nonatomic, assign) SGSPopoverStyle popoverStyle;
 
 /**
