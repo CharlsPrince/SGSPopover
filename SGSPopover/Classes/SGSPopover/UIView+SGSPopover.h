@@ -10,6 +10,6 @@
 
 @interface UIView (SGSPopover)
 
-//- (void)showPopover
+- (void)testPodVersion;
 
 @end

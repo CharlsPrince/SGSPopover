@@ -10,4 +10,8 @@
 
 @implementation UIView (SGSPopover)
 
+- (void)testPodVersion {
+    NSLog(@"测试 pod 版本升级");
+}
+
 @end
